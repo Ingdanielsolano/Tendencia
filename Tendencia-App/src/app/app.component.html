@@ -1,0 +1,13 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Verificador de tendencias en Facebook!
+  </h1>  
+</div>
+<div>   
+  <form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+    <input name="idPost" ngModel required #idPost="ngModel">
+    <button>Submit</button>
+  </form>
+  {{algo}}
+</div>
