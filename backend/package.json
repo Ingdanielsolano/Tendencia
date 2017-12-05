@@ -1,0 +1,28 @@
+{
+  "name": "tendencia",
+  "version": "1.0.0",
+  "description": "Tendencia Facebook",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ingdanielsolano/Tendencia.git"
+  },
+  "author": "Felipe Apache",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ingdanielsolano/Tendencia/issues"
+  },
+  "homepage": "https://github.com/Ingdanielsolano/Tendencia#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "fb": "^2.0.0",
+    "http-server": "^0.10.0",
+    "nodemon": "^1.12.1"
+  }
+}
